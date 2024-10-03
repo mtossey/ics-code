@@ -1,0 +1,57 @@
+/* 3.1: Set the default font family for the website */
+body {
+    font-family: Arial, sans-serif; /* Serif or sans-serif font for the website */
+}
+
+/* Set the font family for the textarea (monospace for editing area) */
+textarea {
+    font-family: "Courier New", Courier, monospace; /* Monospace font for editing area */
+}
+
+/* 3.2: Navbar styling with border and flex alignment */
+.navbar {
+    display: flex;
+    align-items: center;  /* Center align items vertically */
+    border-bottom: 1px solid black; /* 1px solid black bottom border */
+}
+
+/* 3.3: ICS Code logo styling */
+.navbar img {
+    height: 100%; /* Set the height of the logo to fill the vertical space */
+}
+
+/* 3.4: Navbar tabs styling */
+.navbar .nav-item {
+    background-color: #3498db; /* Background color of your choice */
+    color: white; /* Font color of your choice */
+    margin: 0.16em; /* Margin between the tabs */
+    padding: 0.64em; /* Padding inside the tabs */
+    text-decoration: none; /* Remove underline from link text */
+    display: inline-block; /* Make tabs inline */
+}
+
+.navbar .nav-item:hover {
+    background-color: #2980b9; /* Change background color on hover (optional) */
+}
+
+/* 4.5: Sidebar styling */
+.sidebar {
+    float: left;
+    width: 16%; /* Sidebar width */
+    padding: 1em;
+}
+
+/* 4.6: Editing panel styling */
+.editing-panel {
+    float: left;
+    width: 80%; /* Width of the editing panel */
+    border-left: 1px solid black; /* Left border */
+    padding: 1em;
+}
+
+/* Styling for the textarea within the editing panel */
+.editing-panel textarea {
+    width: 100%;
+    height: 300px; /* Set appropriate height */
+    font-family: "Courier New", Courier, monospace; /* Monospace font */
+}
